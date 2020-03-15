@@ -1,2 +1,2 @@
 # app_flask
- FLASK NGINXe wugi
+Building a Flask app with Docker Nginx and uwsgi 
