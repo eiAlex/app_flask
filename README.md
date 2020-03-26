@@ -57,7 +57,7 @@ pip install --user docker-compose
 
 echo "export DOCKER_HOST=tcp://localhost:2375" >> ~/.bashrc && source ~/.bashrc
 
-export DOCKER_HOST=tcp://127.0.0.1:23750
+export DOCKER_HOST=tcp://127.0.0.1:2375
 
 # Verify Everything Works
 
