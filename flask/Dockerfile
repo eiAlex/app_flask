@@ -12,5 +12,6 @@ RUN pip install --upgrade pip
 # Install the dependencies
 RUN pip install -r requirements.txt
 
+EXPOSE 80
 # run the command to start uWSGI
-CMD ["uwsgi", "app.ini"]
+CMD ["python", "run.py"]
